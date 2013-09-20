@@ -17,7 +17,11 @@ cd -
 
 ./combine_meta.sh >font_meta.json
 
-# Extract the font groups data.
+# Extract the font category groups data.
 
 ./group_categories.sh >font_categories.json
+
+# Extract the font subset groups data.
+
+./group_subsets.sh >font_subsets.json
 
