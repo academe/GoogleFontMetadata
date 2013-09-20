@@ -8,9 +8,20 @@ tools.
 The first file, font_meta.json, is the complete, combined metadata.
 
 The second file, font_categories.json, contains a list of font families grouped by
-font type.
+font category.
 
 The reason for doing this is that Google provide no APIs for extracting this
 information.
 
 It is all quick and dirty, but does the job for me, for now.
+
+The Google Webfonts hg repository is massive - over 2.5Gbytes in size. However, I cannot see
+and easy way to get at the metadata without extracting the entire repository, so I just
+have it updating on a server every now and then.
+
+The entry point is update_font_meta.sh. That will update the hg files, combine the metadata
+to give font_meta.json and then group the fonts into font_categories.json.
+
+One thing that is going to be useful to me, is to extract the list of font subsets. This is
+useful in CRM themes to enable the theme administrator to choose which subsets will be
+available on the site.
