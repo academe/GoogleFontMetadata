@@ -5,7 +5,7 @@ Given the Google Webfonts hg repository pulled into the local "googlefonts-hg" d
 these scripts aim to extract all the font metadata so that it can be used in other
 tools.
 
-The first file, font_meta.json, is the complete, combined metadata.
+The first file, [font_meta.json](https://raw.github.com/academe/GoogleFontMetadata/master/font_meta.json), is the complete, combined metadata.
 
 The second file, font_categories.json, contains a list of font families grouped by
 font category.
