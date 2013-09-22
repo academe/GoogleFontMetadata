@@ -13,7 +13,8 @@ font category.
 The reason for doing this is that Google provide no APIs for extracting this
 information.
 
-It is all quick and dirty, but does the job for me, for now.
+It is all quick and dirty (hell, it's got shell scripts mixed with the data files that it
+generates, eugh), but does the job for me, for now.
 
 The Google Webfonts hg repository is massive - over 2.5Gbytes in size. However, I cannot see
 and easy way to get at the metadata without extracting the entire repository, so I just
