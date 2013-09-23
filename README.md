@@ -1,6 +1,8 @@
 GoogleFontMetadata
 ==================
 
+There is a small writeup about this here: http://academe.co.uk/2013/09/google-web-fonts-api-categories-and-subsets/
+
 Given the Google Webfonts hg repository pulled into the local "googlefonts-hg" directory,
 these scripts aim to extract all the font metadata so that it can be used in other
 tools.
